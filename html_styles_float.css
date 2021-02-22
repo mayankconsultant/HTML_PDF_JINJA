@@ -1,0 +1,305 @@
+
+html {
+    height: 100%;
+    width: 98%;
+    margin:0px;
+}
+
+body{
+
+}
+
+
+.myimg {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.myimg_bottom {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height:inherit;
+}
+
+.full_height {
+  width: 29cm;
+    height: 20.5cm;
+}
+
+h4{
+margin-top:0;
+margin-bottom:0;
+font-family:verdana
+font-size:larger;
+line-height: 1.4;
+font-size: small;
+color: blueviolet;
+font-family: courier new;
+font-style: italic;
+}
+
+ body {
+                width:100%;
+            }
+
+.container .box {
+                width:95%;
+                margin-top:10px;
+                padding-top:10px;
+                display:table;
+                align:center;
+                display: flex;
+            }
+.leftbox {
+
+                color:white;
+                text-align:justify;
+                float:left;
+                width:48%;
+                        }
+.rightbox {
+
+                text-align:justify;
+                float:right;
+                width:48%;
+                           }
+
+.cust_main_table
+{
+margin-top:10px;
+padding-top:10px;
+border-style:groove;
+padding-left:1%;
+margin-left:1%;
+padding-right:15px;
+border-radius: 7px;
+table-layout: fixed;
+width:100%;
+height:2.5in;
+}
+
+.cust_main_table tr:nth-child(odd) {
+background-color: #b2dbd0;
+}
+
+.cust_main_table tr:nth-child(even) {
+background-color: #dfd2ed;
+}
+
+.cust_main_table thead th
+{
+ background:#5db9ab;
+font-family: Lucia;
+font-size: larger;
+color: white;
+font-weight: bolder;
+border-bottom-style:double;
+text-align:center;
+}
+
+.cust_main_table tr td:first-child
+{
+font-family: Lucia;
+font-size: small;
+text-align:left;
+color: #20673e;
+}
+
+.cust_main_table td:last-child
+{
+font-family:Courier new;
+text-align:left;
+color: blueviolet;
+font-size: small;
+overflow:hidden;
+}
+
+.table_line{
+background-color:#5db9ab;
+font-family: Lucia;
+font-size: larger;
+color: white;
+font-weight: bolder;
+border-bottom-style:double;
+text-align:center;
+    width: 95%;
+    margin: 10px;
+}
+
+.level2_box{
+                   width:95%;
+                display: table;
+                 }
+
+.level2_left_box
+{
+float:left;
+   width:100%;
+   height:100%;
+
+                display:table-row;
+                align:center;
+                margin-left:10px;
+                padding-left:15px;
+
+
+}
+
+
+
+.level2_right_box{
+float:right;
+   width:23%;
+                margin-top:10px;
+                padding-top:10px;
+                display:table-row;
+                align:center;
+                 border-style:solid;
+                padding-left:10px;
+                flex-grow : 1;
+}
+
+
+
+.invoice_detail_left
+{
+margin-top:10px;
+padding-top:10px;
+border-style:groove;
+margin-left:1%;
+border-radius: 10px;
+table-layout: fixed;
+width:95%;
+height:6in;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.invoice_detail_left thead th
+{
+ background:#5db9ab;
+font-family: Lucia;
+font-size: larger;
+color: white;
+font-weight: bolder;
+border-bottom-style:double;
+text-align:center;
+
+}
+
+.invoice_detail_left tr:nth-child(odd) {
+background-color: #b2dbd0;
+}
+
+.invoice_detail_left tr:nth-child(even) {
+background-color: #dfd2ed;
+}
+
+
+.invoice_detail_left  td:first-child
+{
+font-family: Lucia;
+font-size: x-large;
+text-align:left;
+color: #20673e;
+}
+
+
+
+.invoice_detail_left td:last-child
+{
+font-family:Courier new;
+text-align:left;
+color: black;
+font-size: x-large;
+overflow:hidden;
+font-style:bolder
+}
+
+.invoice_detail_left tr:last-child td:last-child
+{
+font-family:Courier new;
+text-align:left;
+color: Black;
+font-size: xx-large;
+overflow:hidden;
+font-style:bolder
+}
+
+.bottom-img {
+ padding-left:2px;
+ margin-top:5px;
+ height:1.5in;
+ width:95%;
+}
+
+.mystyle {
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-right-width: 3px;
+    border-right-style: solid;
+    font-family: Verdana , Courier;
+    width: 100%;
+    border-collapse:collapse;
+   }
+
+h2 {
+  margin-top: 6rem;
+  margin-bottom: 0.5rem;
+  margin-left: 60px;
+  color:#5db9ab;
+  font-size: 50px;
+  letter-spacing: 0.024em;
+  font-weight: 700;
+}
+
+
+
+.mystyle table {
+     width: 100%;
+ }
+
+.mystyle thead{
+display: table-header-group;
+}
+
+.mystyle tfoot{
+display: table-row-group
+}
+
+.mystyle th {
+    background: #5db9ab;
+    text-align:left;
+    border-style:solid;
+    border: 1px solid black;
+}
+
+.mystyle tr, td {
+
+	text-align:left;
+	font-family:courier;
+	}
+
+.mystyle tr:last-child
+{
+font-family:verdana;
+text-align:left;
+color: Black;
+font-style:Italic;
+border-style:solid;
+}
+
+
+.mystyle tr { page-break-inside: avoid;
+                }
+
+.mystyle td { page-break-inside: avoid }
+

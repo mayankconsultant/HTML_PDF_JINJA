@@ -1,0 +1,17 @@
+venv
+/venv/
+/venv/
+/.idea/
+/venv/
+*.html
+Aug/*
+Dec/*
+Jan/*
+Jul/*
+Jul/
+Nov/*
+Nov/
+Sep/*
+Sep/
+OLD_HTML_PDF/*
+OLD_HTML_PDF
